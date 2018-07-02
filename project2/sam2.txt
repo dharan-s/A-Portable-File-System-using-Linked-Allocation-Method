@@ -1,0 +1,13 @@
+SQL> select job_id from employees group by job_id having avg(salary)>10000;
+
+JOB_ID                                                                          
+----------                                                                      
+AC_MGR                                                                          
+PU_MAN                                                                          
+AD_VP                                                                           
+FI_MGR                                                                          
+SA_MAN                                                                          
+MK_MAN                                                                          
+AD_PRES                                                                         
+
+7 rows selected.
