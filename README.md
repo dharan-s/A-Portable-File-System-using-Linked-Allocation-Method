@@ -19,14 +19,17 @@ You can create your PFS and which allocates 10KB to it with block size of 256 KB
 
 -> dir - List the files in your PFS file. 
 
-> 
-> 
-> putr myfile Remarks - Append remarks to the directory entry for myfile in your PFS file.
-> rm myfile - Delete "myfile" from your PFS file.
-> kill PFSfile - Delete the PFSfile from the Windows file system.
-> putc myfile data - Append data to the myfile
-> run file - Associate a program to be run against this file.
-> quit - Exit PFS.
+-> putr myfile Remarks - Append remarks to the directory entry for myfile in your PFS file.
+
+-> rm myfile - Delete "myfile" from your PFS file.
+
+-> kill PFSfile - Delete the PFSfile from the Windows file system.
+
+-> putc myfile data - Append data to the myfile
+
+-> run file - Associate a program to be run against this file.
+
+-> quit - Exit PFS. 
 
 Assumption: I have kept FCB block fixed to 4, so only 4 file can be saved in one PFS.If you want modify it, you can change the same in FCB.java src file.
 
