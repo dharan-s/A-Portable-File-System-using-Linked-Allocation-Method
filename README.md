@@ -15,11 +15,12 @@ You can create your PFS and which allocates 10KB to it with block size of 256 KB
 
 -> put localfile - Copy the Windows (or Unix/Linux) file "myfile" into your PFS file. 
 
+-> get myfile - Extract file "myfile" from your PFS file and copy it to the current Windows (or Unix/Linux) directory.
 
-> open PFSfile - Allocate a new 10 KByte "PFS" file if it does not already exist. If it does exist, begin using it for further commands.
-> put localfile - Copy the Windows (or Unix/Linux) file "myfile" into your PFS file.
-> get myfile - Extract file "myfile" from your PFS file and copy it to the current Windows (or Unix/Linux) directory.
-> dir - List the files in your PFS file.
+-> dir - List the files in your PFS file. 
+
+> 
+> 
 > putr myfile Remarks - Append remarks to the directory entry for myfile in your PFS file.
 > rm myfile - Delete "myfile" from your PFS file.
 > kill PFSfile - Delete the PFSfile from the Windows file system.
