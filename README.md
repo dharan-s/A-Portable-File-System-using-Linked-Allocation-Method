@@ -11,6 +11,10 @@ Copy or create your own file to process in PFS.
 
 You can create your PFS and which allocates 10KB to it with block size of 256 KB each. You are able run with list of below commands given as input 
 
+-> open PFSfile - Allocate a new 10 KByte "PFS" file if it does not already exist. If it does exist, begin using it for further commands.
+-> put localfile - Copy the Windows (or Unix/Linux) file "myfile" into your PFS file. 
+
+
 > open PFSfile - Allocate a new 10 KByte "PFS" file if it does not already exist. If it does exist, begin using it for further commands.
 > put localfile - Copy the Windows (or Unix/Linux) file "myfile" into your PFS file.
 > get myfile - Extract file "myfile" from your PFS file and copy it to the current Windows (or Unix/Linux) directory.
