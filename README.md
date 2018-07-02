@@ -7,7 +7,7 @@ Codes are available at project2/src/
 
 Copy or create your own file to process in PFS.
 
-You can create your PFS and which allocates 10KB to it with block size of 256 KB each. I am also able run with list of below commands given as input 
+You can create your PFS and which allocates 10KB to it with block size of 256 KB each. You are able run with list of below commands given as input 
 
 > open PFSfile
 > put localfile
